@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayam Geprek | Pedas Favoritmu</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome untuk Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">AYAM<span>GEPREK</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#promo">Promo</a></li>
+                <li><a href="#tentang">Tentang Kami</a></li>
+                <li><a href="#kontak" class="btn-contact">Kontak</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="reveal">Ayam Geprek <br><span>Pedas Favoritmu!</span></h1>
+            <p class="reveal">Renyah, pedas, dan bikin nagih dengan sambal pilihan yang diulek langsung.</p>
+            <div class="hero-btns reveal">
+                <a href="https://wa.me/628123456789" class="btn-primary">Pesan Sekarang</a>
+                <a href="#menu" class="btn-secondary">Lihat Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section container" id="menu">
+        <div class="section-title">
+            <h2>Menu Spesial</h2>
+            <p>Pilih tingkat kepedasanmu dan nikmati sensasinya</p>
+        </div>
+        <div class="menu-grid">
+            <!-- Card 1 -->
+            <div class="menu-card reveal">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=500&q=80" alt="Geprek Original">
+                </div>
+                <div class="menu-info">
+                    <h3>Geprek Original</h3>
+                    <p>Ayam krispi gurih dengan sambal bawang khas.</p>
+                    <span class="price">Rp 15.000</span>
+                    <button class="btn-order">Pesan via WA</button>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="menu-card reveal">
+                <div class="menu-img">
+                    <img src="https://i.ytimg.com/vi/pTaGvlXU-cw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLALnjOAOczBD8QpAWrA8clhrRSxYA" alt="Geprek Sambal Ijo">
+                </div>
+                <div class="menu-info">
+                    <h3>Sambal Ijo</h3>
+                    <p>Rasa pedas segar sambal ijo yang otentik.</p>
+                    <span class="price">Rp 17.000</span>
+                    <button class="btn-order">Pesan via WA</button>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="menu-card reveal">
+                <div class="menu-img">
+                    <img src="https://www.dapurkobe.co.id/wp-content/uploads/ayam-geprek-keju.jpg" alt="Geprek Keju">
+                </div>
+                <div class="menu-info">
+                    <h3>Geprek Keju</h3>
+                    <p>Perpaduan ayam pedas dan keju melt yang lumer.</p>
+                    <span class="price">Rp 20.000</span>
+                    <button class="btn-order">Pesan via WA</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spiciness Level Section -->
+    <section class="spicy-level">
+        <div class="container">
+            <div class="section-title">
+                <h2 style="color: white;">Pilih Level Kepedasan 🌶️</h2>
+            </div>
+            <div class="level-container">
+                <div class="level-bar-bg">
+                    <div class="level-progress" id="levelProgress"></div>
+                </div>
+                <div class="level-labels">
+                    <span>Level 1</span>
+                    <span>Level 5</span>
+                    <span>Level 10</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Section -->
+    <section class="promo container" id="promo">
+        <div class="promo-card reveal">
+            <div class="promo-text">
+                <h2>Diskon 20%</h2>
+                <p>Khusus pemesanan hari Jumat! Gunakan kode: <span>PEDASBERKAH</span></p>
+            </div>
+            <i class="fas fa-fire-alt promo-icon"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about container" id="tentang">
+        <div class="about-content reveal">
+            <h2>Tentang Kami</h2>
+            <p>Berdiri sejak 2018, kami berkomitmen menyajikan ayam geprek dengan kualitas bahan premium dan bumbu rahasia yang meresap hingga ke tulang. Kepuasan pelanggan adalah prioritas utama kami dalam setiap ulekan sambal.</p>
+        </div>
+    </section>
+
+    <!-- Testimoni Slider -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonial-slider">
+                <div class="slide active">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Sambalnya benar-benar segar dan ayamnya sangat renyah!"</p>
+                    <h4>- Diki Firmansyah</h4>
+                </div>
+                <div class="slide">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Level 10-nya beneran bikin berkeringat tapi ketagihan."</p>
+                    <h4>- Siska Amelia</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <h3>AYAM GEPREK</h3>
+                <p>Jl. Pedas Nikmat No. 123, Jakarta Selatan</p>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Navigasi</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Ayam Geprek - All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
